@@ -7,6 +7,6 @@ terraform {
   }
 }
 
-resource "null_resource" "null_1" {
+resource "null_resource" "null_prod" {
 count =6
 }

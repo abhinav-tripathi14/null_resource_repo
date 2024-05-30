@@ -8,5 +8,5 @@ terraform {
 }
 
 resource "null_resource" "null_1" {
-count =6
+count =7
 }

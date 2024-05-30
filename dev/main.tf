@@ -1,4 +1,4 @@
-_1terraform {
+terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -7,6 +7,6 @@ _1terraform {
   }
 }
 
-resource "null_resource" "null_1" {
+resource "null_resource" "null_dev" {
 count =2
 }
